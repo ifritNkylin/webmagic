@@ -19,10 +19,10 @@ public class HtmlNode extends AbstractSelectable {
     }
 
     public HtmlNode() {
-        elements = null;
+        elements = new ArrayList<>();
     }
 
-    protected List<Element> getElements() {
+    public List<Element> getElements() {
         return elements;
     }
 

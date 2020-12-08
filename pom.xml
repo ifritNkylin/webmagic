@@ -43,6 +43,7 @@
     </licenses>
 
     <modules>
+        <module>ifritSpider</module>
         <module>webmagic-core</module>
         <module>webmagic-extension/</module>
         <module>webmagic-scripts/</module>
